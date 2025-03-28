@@ -127,7 +127,7 @@ manager:
     # -- Set the log verbosity of the capsule with a value from 1 to 10
     logLevel: '4'
     # -- Boolean, enforces the Tenant owner, during Namespace creation, to name it using the selected Tenant name as prefix, separated by a dash
-    forceTenantPrefix: false
+    forceTenantPrefix: true
     # -- Override the Capsule user groups
     capsuleUserGroups: ["capsule.clastix.io", "system:serviceaccounts:tenant-system"]
     # -- If specified, disallows creation of namespaces matching the passed regexp
